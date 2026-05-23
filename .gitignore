@@ -1,0 +1,24 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Django local database
+db.sqlite3
+
+# React
+node_modules/
+dist/
+
+# Environment files
+.env
+.env.local
+
+# Mac files
+.DS_Store
+
+# VS Code
+.vscode/
