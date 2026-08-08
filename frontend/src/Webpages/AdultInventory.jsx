@@ -483,11 +483,11 @@ function AdultInventory() {
 
   return (
     <>
-      <nav className="top-navbar">
+      <nav className="home-side-nav">
         <Link to="/">Home</Link>
         <Link to="/food">Food Bank</Link>
         <Link to="/baby">Baby Store</Link>
-        <Link to="/adult" className="top-nav-active">Adult Store</Link>
+        <Link to="/adult" className="nav-active">Adult Store</Link>
       </nav>
 
       <div className="app-container">
@@ -499,10 +499,10 @@ function AdultInventory() {
           />
 
           <div>
-            <h1>Young Parents United Inventory</h1>
-            <p className="subtitle">
+            <h1>Adult Free Store Inventory</h1>
+            {/* <p className="subtitle">
               Inventory tracking for free stores and food bank
-            </p>
+            </p> */}
           </div>
         </header>
 

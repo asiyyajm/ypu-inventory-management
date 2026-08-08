@@ -8,6 +8,7 @@ function Home() {
   return (
     <>
       <nav className="home-side-nav">
+        <Link to="/" className="nav-active">Home</Link>
         <Link to="/food">Food Bank</Link>
         <Link to="/baby">Baby Store</Link>
         <Link to="/adult">Adult Store</Link>
@@ -22,7 +23,10 @@ function Home() {
           />
 
           <div>
-            <h1>Welcome to Young Parents United Inventory management system.</h1>
+            <h1>Young Parents United Inventory</h1>
+            <p className="subtitle">
+              Inventory tracking for free stores and food bank
+            </p>
           </div>
         </header>
       </div>

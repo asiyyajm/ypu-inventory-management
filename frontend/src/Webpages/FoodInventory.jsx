@@ -483,9 +483,9 @@ function FoodInventory() {
 
   return (
     <>
-      <nav className="top-navbar">
+      <nav className="home-side-nav">
         <Link to="/">Home</Link>
-        <Link to="/food" className="top-nav-active">Food Bank</Link>
+        <Link to="/food" className="nav-active">Food Bank</Link>
         <Link to="/baby">Baby Store</Link>
         <Link to="/adult">Adult Store</Link>
       </nav>
@@ -499,10 +499,10 @@ function FoodInventory() {
           />
 
           <div>
-            <h1>Young Parents United Inventory</h1>
-            <p className="subtitle">
+            <h1>Food Bank Inventory</h1>
+            {/* <p className="subtitle">
               Inventory tracking for free stores and food bank
-            </p>
+            </p> */}
           </div>
         </header>
 
